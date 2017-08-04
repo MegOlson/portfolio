@@ -17,7 +17,22 @@
   margin: inherit;
 }
 .jumbotron {
+  background-image: url("https://thumbs.dreamstime.com/z/abstract-soft-sweet-pink-flower-background-begonia-flowers-56547317.jpg");
   height: 150px;
   padding-bottom: 20%;
   padding-top: 1%
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: cursive;
+}
+.panel > .panel-heading {
+  background-color: #F5B7B1;
+  color: white;
+}
+.jumbotron h2 {
+  font-weight: bold;
+}
+body {
+  background-color: #FDEDEC;
 }
