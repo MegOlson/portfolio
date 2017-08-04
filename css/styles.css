@@ -3,5 +3,24 @@ h1 {
 }
 img {
   float: left;
-  width: 25%;
+  width: 175px;;
+}
+.col-md-4 {
+  float: right;
+}
+.jumbotron h1{
+  font-size: 40px;
+  text-align: center;
+}
+.jumbotron h2 {
+  font-size: 20px;
+  font-style: italic;
+}
+.row {
+  padding: inherit;
+  margin: inherit;
+}
+.jumbotron {
+  height: 200px;
+  padding-top: 1%;
 }
