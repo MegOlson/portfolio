@@ -7,6 +7,7 @@
 .jumbotron h1{
   font-size: 40px;
   text-align: center;
+  color: black;
 }
 .jumbotron h2 {
   font-size: 18px;
@@ -17,13 +18,19 @@
   margin: inherit;
 }
 .jumbotron {
-  background-image: url("https://thumbs.dreamstime.com/z/abstract-soft-sweet-pink-flower-background-begonia-flowers-56547317.jpg");
   height: 150px;
-  padding-bottom: 20%;
-  padding-top: 1%
+  padding-bottom: 15%;
+  padding-top: 1%;
   background-position: 0% 25%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  color: black;
+  background-color: #F5B7B1;
+  text-align: center;
+  margin-top: 20px;
+}
+.background {
+  position: absolute;
+  -webkit-filter: blur(20px);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 .panel > .panel-heading {
   background-color: #F5B7B1;
@@ -35,6 +42,9 @@
 body {
   background-color: #FDEDEC;
   font-family: sans-serif;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/db/5f/62/db5f623f28df644106cd96278f59f11e.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .panel-footer {
   background-color: #FEF9E7;
