@@ -1,9 +1,8 @@
-img {
-  float: left;
-  width: 250px;;
-}
-.col-md-4 {
-  float: right;
+.me {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .jumbotron h1{
   font-size: 40px;
