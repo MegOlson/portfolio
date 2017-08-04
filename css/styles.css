@@ -24,15 +24,24 @@
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: cursive;
 }
 .panel > .panel-heading {
   background-color: #F5B7B1;
   color: white;
 }
 .jumbotron h2 {
-  font-weight: bold;
+  font-style: italic;
 }
 body {
   background-color: #FDEDEC;
+  font-family: sans-serif;
+}
+.panel-footer {
+  background-color: #FEF9E7;
+}
+#top {
+  background-color: #A2D9CE;
+}
+.row {
+  margin: 3px;
 }
