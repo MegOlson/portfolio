@@ -1,9 +1,6 @@
-h1 {
-  color:pink;
-}
 img {
   float: left;
-  width: 175px;;
+  width: 250px;;
 }
 .col-md-4 {
   float: right;
@@ -13,7 +10,7 @@ img {
   text-align: center;
 }
 .jumbotron h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
 }
 .row {
@@ -21,6 +18,7 @@ img {
   margin: inherit;
 }
 .jumbotron {
-  height: 200px;
-  padding-top: 1%;
+  height: 150px;
+  padding-bottom: 20%;
+  padding-top: 1%
 }
