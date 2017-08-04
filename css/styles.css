@@ -3,6 +3,10 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 5px solid #895870;
+}
+#image {
+  background-color: #ffedfb;
 }
 .jumbotron h1{
   font-size: 40px;
@@ -26,6 +30,7 @@
   background-color: #F5B7B1;
   text-align: center;
   margin-top: 20px;
+  border: 6px solid #ffe5f1;
 }
 .background {
   position: absolute;
@@ -47,11 +52,26 @@ body {
   background-repeat: no-repeat;
 }
 .panel-footer {
-  background-color: #FEF9E7;
+  background-color: #d1becd;
+  text-align: center;
 }
 #top {
-  background-color: #A2D9CE;
+  background-color: #d2889e;
 }
 .row {
   margin: 3px;
+}
+#left {
+  background-color: #e57979;
+}
+#right {
+  background-color: #dba0c5;
+}
+#pics img {
+  width: 100px;
+  height: 100;
+  float: right;
+}
+#about {
+  padding: 3px;
 }
